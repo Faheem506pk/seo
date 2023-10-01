@@ -1,0 +1,540 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+      <meta charset="utf-8" />
+      <style>
+        p {
+          align-items: center;
+          text-align: center;
+          background-color: black;
+          color: white;
+          font-size: 20px;
+          width: 50%;
+        }
+
+        .center {
+          text-align: center;
+        }
+
+        .button {
+          background-color: #4caf50;
+          /* Green */
+          border: 2px solid #4caf50;
+          color: white;
+          padding: 15px 38px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          cursor: pointer;
+          box-sizing: border-box;
+          border-radius: 7px;
+          transition-duration: 0.5s;
+          cursor: pointer;
+          width: 13%;
+        }
+
+        .btn2:hover {
+          background-color: white;
+          color: black;
+          width: 40%;
+          font-size: 60%;
+        }
+
+        .button2 {
+          background-color: #008cba;
+          box-sizing: border-box;
+          border-radius: 7px;
+          padding: 15px 32px;
+          border: 2px solid #008cba;
+          width: 13%;
+        }
+
+        .button2:hover {
+          background-color: white;
+          color: black;
+          width: 20%;
+          font-size: 20px;
+        }
+
+        .button3 {
+          background-color: #f44336;
+          box-sizing: border-box;
+          border-radius: 7px;
+          padding: 15px 48px;
+          width: 13%;
+          border: 2px solid #f44336;
+        }
+
+        .button3:hover {
+          background-color: white;
+          color: black;
+          width: 20%;
+          font-size: 20px;
+        }
+
+        /* Red */
+         .button4 {
+            
+
+          background-color: aqua;
+          color: black;
+          
+          border-radius: 7px;
+          justify-content: center;
+          padding: 15px 39px;
+          width: 13%;
+          border: 2px solid aqua;
+        }
+
+        .button4:hover {
+          background-color: white;
+          color: black;
+          width: 20%;
+          font-size: 20px;
+        } 
+
+        /* Gray */
+        .button5 {
+          background-color: #555555;
+          box-sizing: border-box;
+          border-radius: 7px;
+          padding: 15px 44px;
+          width: 13%;
+          border: 2px solid #555555;
+        }
+
+        .button5:hover {
+          background-color: white;
+          color: black;
+          width: 20%;
+          font-size: 20px;
+        }
+
+        .button6 {
+          background-color: red;
+          box-sizing: border-box;
+          border-radius: 7px;
+          padding: 15px 44px;
+          width: 13%;
+          border: 2px solid red;
+        }
+
+        .button6:hover {
+          background-color: white;
+          color: black;
+          width: 20%;
+          font-size: 20px;
+        }
+
+        .button7 {
+          background-color: blueviolet;
+          box-sizing: border-box;
+          border-radius: 7px;
+          padding: 15px 44px;
+          width: 13%;
+          border: 2px solid blueviolet;
+        }
+
+        .button7:hover {
+          background-color: white;
+          color: black;
+          width: 20%;
+          font-size: 20px;
+        }
+
+        .button8 {
+          background-color: forestgreen;
+          box-sizing: border-box;
+          border-radius: 7px;
+          padding: 15px 44px;
+          width: 13%;
+          border: 2px solid forestgreen;
+        }
+
+        .button8:hover {
+          background-color: white;
+          color: black;
+          width: 20%;
+          font-size: 20px;
+        }
+
+        .button0 {
+          background-color: rgb(47, 36, 58);
+          box-sizing: border-box;
+          border-radius: 7px;
+          padding: 15px 44px;
+          width: 100%;
+          border: 2px solid black;
+          font-size: 30px;
+        }
+
+        .button0:hover {
+          background-color: white;
+          color: black;
+          width: 100%;
+          font-size: 40px;
+        }
+
+        .body-colour {
+          background-color: #000000;
+        }
+
+        /* Black */
+        .copy {
+            
+            
+           
+          width: 100%;
+          padding: 12px 20px 12px 40px;
+          margin: 8px 0;
+          box-sizing: border-box;
+          border-radius: 7px;
+          border: 2px solid black;
+          background-color: #1b221f;
+          color: white;
+          transition: width 0.4s ease-in-out;
+        }
+        .copy1 {
+            
+            
+           
+          width: 100%;
+          padding: 12px 20px 12px 40px;
+          margin: 8px 0;
+          box-sizing: border-box;
+          border-radius: 7px;
+          border: 2px solid black;
+          background-color: #1b221f;
+          color: white;
+          transition: width 0.4s ease-in-out;
+        }
+        .center2{
+            display: flex;
+            flex-direction: row;
+
+        }
+        .left{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+
+
+        }
+        .right{
+            
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .phtext::placeholder {
+          color: rgb(189, 183, 183);
+        }
+
+        .phtext_textarea::placeholder {
+          color: rgb(189, 183, 183);
+          padding-left: 35px;
+          padding-top: 5px;
+        }
+
+        textarea {
+          background-color: #1b221f;
+          border-radius: 15px;
+          color: white;
+        }
+      </style>
+      <title>Seo</title>
+      <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+        crossorigin="anonymous"
+      />
+    </head>
+
+    <body class="body-colour">
+      <div class="container">
+        <button class="button button0">SEO</button>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <div class="center">
+          <input
+            id="replacement-input"
+            type="text "
+            class="copy"
+            placeholder="Enter replacement value"
+          />
+          <button class="btn btn-outline-primary " onclick="replaceText()">
+            Replace
+          </button>
+<div class="center2">
+          <div class="left">
+            <input
+              id="copy-me1"
+              value="Games, speakers, YouTube, Video Player(MP4/H.264/FLAC), Audio Player(MP3/eAAC+/WAV)"
+              type="text"
+              class="copy1"
+              size="150px"
+            />
+
+            <button
+              type="button"
+              class="btn btn-outline-warning"
+              
+              id="copy-btn1"
+              onclick="copyToClipboard('#copy-me1')"
+              style="width: 50%; "
+            >
+              Entertainment</button
+            ><br /><br />
+          </div>
+          <div class="right">
+            <input
+              id="copy-me2"
+              value="Google Search, Maps, Gmail, Calendar, Document viewer, Photo/video editor,"
+              type="text"
+              class="copy1"
+              size="150px"
+            />
+
+            <button
+              class="btn btn-outline-success"
+              style="width: 50%; "
+              id="copy-btn2"
+              onclick="copyToClipboard('#copy-me2')"
+            >
+              Features</button
+            ><br /><br />
+          </div>
+        </div>
+          <input
+            id="copy-me3"
+            value="- android 13 mobile phone pkr 0 in Pakistan. Features 5G, 6.5 inches IPS LCD Display, triple camera, Fingerprint and Fast charging."
+            type="text"
+            class="copy"
+            size="150px"
+          />
+
+          <button
+            class="btn btn-outline-primary"
+            class="button button4"
+            id="copy-btn3"
+            onclick="copyToClipboard('#copy-me3')"
+          >
+            Description</button
+          ><br /><br />
+
+          <input
+            id="copy-me4"
+            value="- price, - specs, android smartphones, - review, - price Pakistan, Pakistan mobiles"
+            type="text"
+            class="copy"
+            size="150px"
+          />
+
+          <button
+            class="btn btn-outline-light"
+            class="button button5"
+            id="copy-btn4"
+            onclick="copyToClipboard('#copy-me4')"
+          >
+            Keywords</button
+          ><br /><br />
+
+          <input
+            id="copy-me5"
+            value="price US Dollar - in USA"
+            type="text"
+            class="copy"
+            size="150px"
+          />
+
+          <button
+            class="btn btn-outline-info"
+            class="button button5"
+            id="copy-btn5"
+            onclick="copyToClipboard('#copy-me5')"
+          >
+            USA</button
+          ><br /><br />
+
+          <input
+            type="text"
+            id="copy-me"
+            value="Bluetooth:  GPRS, EDGE, 3G, 4G"
+            type="text"
+            class="copy"
+            size="150px"
+          />
+
+          <button
+            type="button"
+            class="btn btn-outline-danger"
+            onclick="copyToClipboard('#copy-me')"
+          >
+            Connectivity</button
+          ><br /><br />
+
+          <input
+            id="copy-me5"
+            placeholder="paste here"
+            value=""
+            type="text"
+            class="copy"
+            class="phtext"
+            size="150px"
+          />
+
+          <button
+            class="btn btn-outline-warning"
+            class="button button6"
+            id="copy-btn4"
+            onclick="copyToClipboard('#copy-me4')"
+          >
+            Copy</button
+          ><br /><br />
+
+          <input
+            id="copy-me6"
+            placeholder="paste here"
+            value=""
+            type="text"
+            class="copy"
+            class="phtext"
+            size="150px"
+          />
+
+          <button
+            class="btn btn-outline-light"
+            class="button button7"
+            id="copy-btn4"
+            onclick="copyToClipboard('#copy-me4')"
+          >
+            Copy</button
+          ><br /><br />
+
+          <input
+            id="copy-me7"
+            placeholder="paste here"
+            value=""
+            type="text"
+            class="copy"
+            class="phtext"
+            size="150px"
+          />
+
+          <button
+            class="btn btn-outline-warning"
+            class="button button8"
+            id="copy-btn4"
+            onclick="copyToClipboard('#copy-me4')"
+          >
+            Copy</button
+          ><br /><br />
+
+          <script type="text/javascript">
+            var currentReplacement = "";
+
+            function replaceText() {
+              var replacementInput =
+                document.getElementById("replacement-input");
+              var copyMe3Input = document.getElementById("copy-me3");
+              var copyMe4Input = document.getElementById("copy-me4");
+
+              // Get the replacement value from the input field
+              var newReplacement = replacementInput.value;
+
+              // If there's a previous replacement, replace it in copy-me4
+              if (currentReplacement !== "") {
+                copyMe4Input.value = copyMe4Input.value.replace(
+                  new RegExp(currentReplacement, "g"),
+                  newReplacement
+                );
+                copyMe3Input.value = copyMe3Input.value.replace(
+                  new RegExp(currentReplacement, "g"),
+                  newReplacement
+                );
+              }
+
+              // Replace "-" with the new replacement value in copy-me3
+              copyMe3Input.value = copyMe3Input.value.replace(
+                /-/g,
+                newReplacement
+              );
+              copyMe4Input.value = copyMe4Input.value.replace(
+                /-/g,
+                newReplacement
+              );
+
+              // Update the current replacement value
+              currentReplacement = newReplacement;
+            }
+          </script>
+
+          <div class="mb-3">
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+              placeholder="paste here"
+            ></textarea>
+          </div>
+        </div>
+
+        <script type="text/javascript">
+          function copyToClipboardFF(text) {
+            window.prompt("Copy to clipboard: Ctrl C, Enter", text);
+          }
+
+          function copyToClipboard(inputId) {
+            var input = $(inputId);
+            var success = true,
+              range = document.createRange(),
+              selection;
+            // For IE.
+            if (window.clipboardData) {
+              window.clipboardData.setData("Text", input.val());
+            } else {
+              // Create a temporary element off screen.
+              var tmpElem = $("<div>");
+              tmpElem.css({
+                position: "absolute",
+                left: "-1000px",
+                top: "-1000px",
+              });
+              // Add the input value to the temp element.
+              tmpElem.text(input.val());
+              $("body").append(tmpElem);
+              // Select temp element.
+              range.selectNodeContents(tmpElem.get(0));
+              selection = window.getSelection();
+              selection.removeAllRanges();
+              selection.addRange(range);
+              // Lets copy.
+              try {
+                success = document.execCommand("copy", false, null);
+              } catch (e) {
+                copyToClipboardFF(input.val());
+              }
+            }
+          }
+        </script>
+      </div>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"
+      ></script>
+    </body>
+  </html>
+</html>
